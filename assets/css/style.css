@@ -46,8 +46,15 @@ h1, h2 {
 .active {
     border-bottom: 1px solid #352165;
 }
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    clear: both;
+}
 #hero-image {
     height: 600px;
     width: 100%;
-    background-image: url(../images/pexels-ron-lach-10045753.jpggit);
+    background: url(../images/pexels-cottonbro-studio-5801566.jpg) no-repeat center center;
+    
 }
