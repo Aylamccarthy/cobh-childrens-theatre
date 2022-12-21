@@ -72,8 +72,24 @@ h1, h2 {
 
     }
     to {
-        transform: scale(1.1);
-
-
+        transform: scale(1.09);
     }
+}
+#cover-text {
+    font-size: 110%;
+    font-family: Chivo Mono, sans-serif;
+    text-transform: uppercase;
+
+    width: 250px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgb(220, 179, 179, .5) ;
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
 }
