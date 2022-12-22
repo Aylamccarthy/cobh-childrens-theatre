@@ -96,6 +96,13 @@ h1, h2 {
 }
 /* club-ethos */
 
+#hi {
+    text-align: center;
+    font-size: 250%;
+    margin:  10px 50px ;
+
+}
+
 #club-ethos {
     height: 600px;
 }
@@ -109,9 +116,13 @@ h1, h2 {
     width: 33%;
     float: right;
 }
-#center-about {
+#center-about-image {
     margin: auto;
     background-color: darkred;
+    background: url(../images/pexels-cottonbro-studio-9644675.jpg) no-repeat center center;
+    width: 400px;
+    height: 500px;
+    padding-top: 60px;
 }
 hr {
     border-top: 1px solid #2a2a2a;
@@ -120,15 +131,15 @@ hr {
 .left-about-heading {
     width: 60%;
     float: right;
-    line-height: 20px;
+    line-height: 18px;
     clear: both;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .right-about-heading {
     width: 60%;
     float: left;
-    line-height: 20px;
+    line-height: 18px;
     clear: both;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
