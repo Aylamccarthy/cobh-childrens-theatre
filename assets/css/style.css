@@ -106,40 +106,12 @@ h1, h2 {
 #club-ethos {
     height: 600px;
 }
-#left-about {
-    padding-top: 30px;
-    width: 33%;
-    float: left;
-}
-#right-about {
-    padding-top: 30px;
-    width: 33%;
-    float: right;
-}
-#center-about-image {
-    margin: auto;
-    background-color: darkred;
-    background: url(../images/pexels-cottonbro-studio-9644675.jpg) no-repeat center center;
-    width: 400px;
-    height: 500px;
-    padding-top: 60px;
-}
-hr {
-    border-top: 1px solid #2a2a2a;
-    margin: 5px;
-}
-.left-about-heading {
-    width: 60%;
-    float: right;
-    line-height: 18px;
-    clear: both;
-    margin-bottom: 30px;
-}
-
-.right-about-heading {
-    width: 60%;
-    float: left;
-    line-height: 18px;
-    clear: both;
-    margin-bottom: 30px;
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    box-decoration-break: slice;
+    border-collapse: separate;
+    border-radius: 50px;
+    margin:  10px 50px ;
+    
 }
