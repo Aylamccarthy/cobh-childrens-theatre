@@ -99,28 +99,45 @@ h1, h2 {
 #hi {
     text-align: center;
     font-size: 250%;
-    margin:  10px 50px ;
+    margin:  20px 50px ;
 
 }
 
 #club-ethos {
     height: 600px;
 }
-.flex-container{
-    display: flex;
-    flex-direction: column;
-    box-decoration-break: slice;
-    border-collapse: separate;
-    border-radius: 50%;
-    margin:  50px 50px ;
-    
-}
+
 #welcome {
     text-align: center;
     font-size: 250%;
     margin:  10px 50px ;
-
 }
+
+.right-reasons {
+    padding-top: 30px;
+    width: 45%;
+    float: right;
+    margin-right: 30px;
+   
+}
+
+.left-reasons {
+    padding-top: 30px;
+    width: 45%;
+    float: left;
+    margin-left: 30px;
+  
+}
+
+.left-reasons > div {
+    padding: 20px 0;
+}
+
+.right-reasons > div {
+    padding: 20px 0;
+}
+
+
 
 #activities  div {
    display:flexbox;
