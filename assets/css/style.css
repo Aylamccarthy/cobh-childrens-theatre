@@ -130,6 +130,8 @@ h1, h2 {
     height: 200px;
     padding: 30px 30px;
 }
+
+/* Gallery Page */
 #photos {
     clear: both;
     line-height: 0;
@@ -137,6 +139,9 @@ h1, h2 {
     column-gap: 0px;
 }
 
-#photos img{
+#photos > img {
     width: 100%;
+    display: flexbox;
+    flex-direction: column;
+    justify-content: baseline;
 }
