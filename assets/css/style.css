@@ -130,3 +130,13 @@ h1, h2 {
     height: 200px;
     padding: 30px 30px;
 }
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0px;
+}
+
+#photos img{
+    width: 100%;
+}
