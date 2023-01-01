@@ -149,6 +149,18 @@ h1, h2 {
     justify-content: center;
     align-items: center;
     padding: 20px 20px;
+    background-color: white;
+
+}
+
+/* Footer */
+
+footer{
+    height: 150px;
+}
+
+.social-networks{
+    text-align: center;
 
 }
 
