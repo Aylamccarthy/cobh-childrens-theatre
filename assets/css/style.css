@@ -57,25 +57,8 @@ h1, h2 {
     height: 600px;
     width: 100%;
     background: url(../images/pexels-cottonbro-studio-5801566.jpg) no-repeat center center;
-
- /*creates animation when page is loaded */
- animation-name: hero-zoom;
- animation-duration: 5s;
- animation-fill-mode: forwards;
 }
 
-
-/* creates the level of zoom for the hero image */
-
-@keyframes hero-zoom {
-    from {
-        transform: scale(.95);
-
-    }
-    to {
-        transform: scale(1.09);
-    }
-}
 #cover-text {
     font-size: 110%;
     font-family: Chivo Mono, sans-serif;
@@ -154,6 +137,16 @@ h1, h2 {
     background-color: white;
 
 }
+
+/*sign-up form*/
+
+#subscription {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 1000px;
+}
+
 
 /* Footer */
 
