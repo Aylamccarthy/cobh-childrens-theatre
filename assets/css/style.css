@@ -56,7 +56,8 @@ h1, h2 {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url(../images/pexels-cottonbro-studio-5801566.jpg) no-repeat center center;
+    background: url(../images/pexels-андрей-12327983\ \(1\).jpg) no-repeat center center;
+    background-size: 100%;
 }
 
 #cover-text {
@@ -141,10 +142,15 @@ h1, h2 {
 /*sign-up form*/
 
 #subscription {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    float: left;
     height: 100px;
+    border: #bd5a5a;
+    clear:both;
+    margin-left: 20px;
+}
+
+#subscription h2 {
+    color: white;
 }
 
 .form-section {
@@ -156,7 +162,7 @@ h1, h2 {
 }
 
 .signup-form {
-    margin: 150px 7% 0 0;
+    margin: 40px 5% 0 0;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
     max-width: 400px;

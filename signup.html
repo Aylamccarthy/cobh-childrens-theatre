@@ -32,14 +32,7 @@
             </ul>
         </nav>
     </header>
-    <div id="subscription">
-        
-        <h2>Membership</h2>
-        <h3>Annual embership: 120Euros</h3>
-        <h3>6 Months Membership: 70Euros</h3>
-        <h3>3 Months Membership: 40Euros</h3> 
-            
-    </div>
+    
     <section class="form-section">
         <form class="signup-form" method="POST" action="https://formdump.codeinstitute.net/">
             <h2>Book Now!  <i class="fa-sharp fa-solid fa-masks-theater"></i></h2>
@@ -47,6 +40,8 @@
             <input id=" cfname" class="text-input" type="text" name="child_name" required />
             <label for="pname">Parent's/Guardian's Full Name:</label>
             <input id="pname" class="text-input" type="text"  name="parent_name" required />
+            <label for="contact_no">Parent's/Guardian's Contact Number:</label>
+            <input id="contact_no" class="text-input" type="text"  name="contact_no" required />
             <label for="email">Email Address:</label>
             <input id="email" class="text-input" type="email" name="email_address" required/>
             <label for="annual">Annual Membership</label>
@@ -56,7 +51,15 @@
             <label for="3months">3-Months Membership</label>
             <input id="3months" type="radio" name="membership_preference" value="3months"/>
             <input class="join-button"  type="submit" value="Let's Go Have Some Fun!"/>
+    
+         <div id="subscription">
+        
+        <h2>Membership</h2>
+        <h3>Annual Membership: 120Euros</h3>
+        <h3>6-Months Membership: 70Euros</h3>
+        <h3>3-Months Membership: 40Euros</h3> 
             
+        </div>
         </form>
  </section> 
 
