@@ -121,7 +121,7 @@ h1, h2 {
     padding: 20px 0;
 }
 
-/* acitivities and times section */
+/* acitivities and camps times section */
 
 #activities  {
     height: 600px;
@@ -129,13 +129,26 @@ h1, h2 {
     padding-top: 50px;
 }
 
-#activities-container div {
-    display: flex;
-    flex-direction: column;
+#activities-container {
+    float: left;
     justify-content: center;
     align-items: center;
     padding: 20px 20px;
     background-color: white;
+    margin-left: 60px;
+    display: inline;
+    width: 500px;
+}
+
+#camps-container {
+    float: right;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+    background-color: white;
+    display: inline;
+    width: 500px;
+    margin-right: 60px;
 
 }
 
