@@ -78,6 +78,26 @@ h1, h2 {
 
     position: absolute;
 }
+
+#contacts {
+    float: left;
+    font-size: 100%;
+    font-family: Chivo Mono, sans-serif;
+    color: rgb(8, 8, 8);
+    text-align: left;
+
+    width: 350px;
+    height: 250px;
+
+    padding: 20px 20px;
+    background-size: 100%;
+    background-color: white ;
+
+    bottom: 10px;
+    left:  100px;
+
+    position: absolute;
+}
 /* club-ethos */
 
 #hi {
@@ -229,7 +249,7 @@ footer{
 }
 
 .social-networks{
-    text-align: center;
+    text-align:end;
     height: 75px;
     background-color:  rgba(57, 52, 57, 0.3);
 }
