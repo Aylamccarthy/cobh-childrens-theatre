@@ -96,7 +96,7 @@ h1, h2 {
 
     bottom: 10px;
     left:  15px;
-
+}
 #social-media {
     display: flex;
     flex-direction: column;
@@ -116,8 +116,6 @@ h1, h2 {
     left:  15px;
 }
 
-
-}
 /* club-ethos */
 
 #hi {
