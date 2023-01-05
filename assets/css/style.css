@@ -80,14 +80,15 @@ h1, h2 {
 }
 
 #contacts {
-    float: left;
+    display: flex;
+    flex-direction: column;
     font-size: 100%;
     font-family: Chivo Mono, sans-serif;
     color: rgb(8, 8, 8);
     text-align: left;
 
-    width: 300px;
-    height: 120px;
+    width: 150px;
+    height: 100x;
 
     padding: 20px 20px;
     background-size: 100%;
@@ -96,7 +97,26 @@ h1, h2 {
     bottom: 10px;
     left:  15px;
 
-    position: absolute;
+#social-media {
+    display: flex;
+    flex-direction: column;
+    font-size: 100%;
+    font-family: Chivo Mono, sans-serif;
+    color: rgb(8, 8, 8);
+    text-align: left;
+
+    width: 150px;
+    height: 100px;
+
+    padding: 20px 20px;
+    background-size: 100%;
+    background-color: white ;
+
+    bottom: 10px;
+    left:  15px;
+}
+
+
 }
 /* club-ethos */
 
@@ -244,25 +264,8 @@ h1, h2 {
 
 /* Footer */
 
-footer{
-    height: 50px;
-}
-
-.social-networks{
-    text-align: center;
-    height: 75px;
-    background-color:  rgba(57, 52, 57, 0.3);
-}
-
-.social-networks > li {
-    display: inline; 
-    
-}
-
-.social-networks i {
-    font-size: 30px; 
-    padding: 20px 30px;
-
+#contacts {
+    width: 50%;
 }
 
 /* Gallery Page */
