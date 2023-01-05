@@ -256,18 +256,20 @@ margin-right: 10%;
     padding: 5%  5% 5% 5%;
 
 }
-
 /* Gallery Page */
-#photos {
-    clear: both;
-    line-height: 0;
-    column-count: 4;
-    column-gap: 0px;
+
+#photo-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+
 }
 
-#photos > img {
+img{
+    max-width: 100%;
     width: 100%;
-    display: flexbox;
-    flex-direction: column;
-    justify-content: space-evenly;
+    height: auto;
+    transition: 0.5s;
+    border-radius: 10px;
 }
