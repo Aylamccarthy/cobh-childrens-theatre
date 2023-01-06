@@ -258,18 +258,13 @@ margin-right: 10%;
 }
 /* Gallery Page */
 
-#photo-gallery{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    flex-direction: column;
-
+#photo-gallery {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0px;
 }
 
-img{
-    max-width: 100%;
+#photo-gallery img{
     width: 100%;
-    height: auto;
-    transition: 0.5s;
-    border-radius: 10px;
 }
