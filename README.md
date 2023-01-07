@@ -2,7 +2,7 @@
 
 Cobh Children's Theatre is a  children's club website. Its primary goal is to provide information for the current members and future members alike. It is essentially a one stop shop for dance, speech and drama, music, and all kind of performing arts for children. It caters for children ages 4-12. The club run classes and activities all year round, including easter and summer camps. The club's ultimate goal is to provide a safe, fun and exciting environment for children so they can explore,grow, discover and reach their full potential while having the time of their lives. View the live website [here] ( https://aylamccarthy.github.io/cobh-childrens-theatre/)
 
-![Mockup](docs/readme_images.png)
+![Mockup](docs/readme_images/mockup.png)
 
 Features
 Site wide
@@ -361,3 +361,6 @@ Media
 Website Logo was 
 
 Maps on the ..
+
+
+[def]: docs/readme_images/readme_images.png
