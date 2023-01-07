@@ -29,22 +29,22 @@ This is an image of our two gorgeous girl members performing.
 This will help to immediately show and entice the user what the website is about and how much fun their children will have should they decide to sign them up.
 ![Landing Page Image](docs/readme_images/landing_page.png)
 
-Website information on 'Cobh Children's Theatre'
-Information about the club and the websites purpose including the benefits all the acitivities can have on their members.
-This information lets the user know what the site is about.
+*Website information on 'Cobh Children's Theatre'
+ *Information about the club and the websites purpose including the benefits all the acitivities can have on their members.
+ *This information lets the user know what the site is about.
 
 
-Sign Up form
-A sign up form will be implemented to allow users to sign up to the club. The form will consist of the following fields and attributes:
-Child's Name (required, type=text)
-Parent/Guardian's Full Name (required, type=text)
-Contact Number (required, type=tel)
-Email (required, type=email)
-On successful submission of the Sign form, the user will be navigated to contact.html displaying a success message.
-This will allow user to contact the club if they have any queiries about the club, information about all the activities or membership.
-Sign Up Form
+*Sign Up form
+ *A sign up form will be implemented to allow users to sign up to the club. The form will consist of the following fields and attributes:
+    *Child's Name (required, type=text)
+    *Parent/Guardian's Full Name (required, type=text)
+    *Contact Number (required, type=tel)
+    *Email (required, type=email)
+*On successful submission of the Sign form, the user will be navigated to contact.html displaying a success message.
+This will allow user to contact the club if they have any queries about the club, information about all the activities or membership.
 
-Sign Up Form Received
+![Sign Up Form](docs/readme_images/signup_form.png)
+
 
 Gallery Page
 Gallery
