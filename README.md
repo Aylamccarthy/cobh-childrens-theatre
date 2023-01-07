@@ -285,11 +285,12 @@ Actual:
 
 Behavior was as expected and the window presented me with the following option to call:
 
-Oukitel Mobile Phone
+Mobile Phone 0871376895
+
 Steps to test Email Link
 
-Navigate to Tacos Travels - Home Page
-Click the email address in the footer (taco@gmail.com)
+Navigate to Cobh Children's Theatre- Home Page
+Click the email address in the footer (info.cobhtheatre@gmail.com)
 Expected:
 
 A windows popup is displayed asking what application you would like to send a mail from or your default email application is opened.
@@ -319,7 +320,7 @@ Responsiveness of the website worked on all devices, screen sizes and orientatio
 
 Deployment
 Version Control
-The site was created using the Visual Studio code editor and pushed to github to the remote repository ‘tacos-travels’.
+The site was created using the Visual Studio code editor and pushed to github to the remote repository ‘Cobh-Childrens-Theatre’.
 
 The following git commands were used throughout development to push code to the remote repo:
 
@@ -354,9 +355,8 @@ Code was used from this site to create the accordian effect on the adventures pa
 Youtube Gallery Filter Tutorial
 Gallery page was created with inspiration from this video. I adapted code to use flexbox rather than css grid to make the page responsive on every device.
 Content
-All content with the exception of those listed in the Media section of this document was owned by Hair O'The Dog club members Rocket and Taco. Permission was granted from Rocket to use the images.
-
+All content with
 Media
-Website Logo was created by my wife Daisy McGirr using Canva.
+Website Logo was 
 
-Maps on the adventure page were from google maps timeline.
+Maps on the ..
