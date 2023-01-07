@@ -2,7 +2,9 @@
 
 Cobh Children's Theatre is a  children's club website. Its primary goal is to provide information for the current members and future members alike. It is essentially a one stop shop for dance, speech and drama, music, and all kind of performing arts for children. It caters for children ages 4-12. The club run classes and activities all year round, including easter and summer camps. The club's ultimate goal is to provide a safe, fun and exciting environment for children so they can explore,grow, discover and reach their full potential while having the time of their lives. View the live website [here] ( https://aylamccarthy.github.io/cobh-childrens-theatre/)
 
+
 ![Mockup](docs/readme_images/mockup.png)
+
 
 ## Features
 
@@ -13,14 +15,18 @@ Cobh Children's Theatre is a  children's club website. Its primary goal is to pr
 This will allow users to easily navigate between the pages within the site on any device size.
 
 
+
 ![Nav Menu](docs/readme_images/nav_menu.png)
+
 
 * Footer 
  * The first part of the footer will contain contact information for 'Cobh Children's Theatre'. Telephone number and email address are clickable for ease of access.
  * It will also contain icons as links to social media websites that will open in new tabs. Icons will be accessible to the visually impaired who may be using a screen reader, by the use of aria labels.
  *This will allow the user to follow 'Cobh Children's Theatre' on various social media where they can get more up to date information that may not be displayed on the website. The contact information will allow the user to contact the club directly.
 
+
 ![Footer](docs/readme_images/footer.png)
+
 
 
 ### Landing Page
@@ -29,28 +35,30 @@ This is an image of our two gorgeous girl members performing.
 This will help to immediately show and entice the user what the website is about and how much fun their children will have should they decide to sign them up.
 ![Landing Page Image](docs/readme_images/landing_page.png)
 
-*Website information on 'Cobh Children's Theatre'
- *Information about the club and the websites purpose including the benefits all the acitivities can have on their members.
- *This information lets the user know what the site is about.
+* Website information on 'Cobh Children's Theatre'
+ * Information about the club and the websites purpose including the benefits all the acitivities can have on their members.
+ * This information lets the user know what the site is about.
 
 
-*Sign Up form
- *A sign up form will be implemented to allow users to sign up to the club. The form will consist of the following fields and attributes:
-    *Child's Name (required, type=text)
-    *Parent/Guardian's Full Name (required, type=text)
-    *Contact Number (required, type=tel)
-    *Email (required, type=email)
-*On successful submission of the Sign form, the user will be navigated to contact.html displaying a success message.
+* Sign Up form
+ * A sign up form will be implemented to allow users to sign up to the club. The form will consist of the following fields and attributes:
+    * Child's Name (required, type=text)
+    * Parent/Guardian's Full Name (required, type=text)
+    * Contact Number (required, type=tel)
+    * Email (required, type=email)
+* On successful submission of the Sign form, the user will be navigated to contact.html displaying a success message.
 This will allow user to contact the club if they have any queries about the club, information about all the activities or membership.
 
 ![Sign Up Form](docs/readme_images/signup_form.png)
 
 
-Gallery Page
-Gallery
+### Gallery Page
+
+* Gallery
 The gallery will provide the user with photos of the club members in action.
 This will give the user a glimpse of how much fun and exciting it is to be a member of the club.
-Gallery
+
+![Gallery](docs/readme_images/gallery.png)
 
 
 
