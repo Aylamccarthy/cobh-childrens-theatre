@@ -351,5 +351,14 @@ margin-right: 10%;
     background-size: cover;
     background-position: center;
     height: 700px;
+}
 
+.thankyou {
+    margin: 40px 5% 0 0;
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    max-width: 400px;
+    position: absolute;
+    right: 1%;
+    padding: 15px;
 }
