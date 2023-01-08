@@ -78,37 +78,30 @@ This will give the user a glimpse of how much fun and exciting it is to be a mem
 ## Design
 
 ### Wireframes
-
+<br><br>
 Home page
+<br><br>
 
-Home Page large screen
+![Home Page large screen](docs/readme_images/homepage.png)
 
-Home Page small screen
+![Home Page small screen](docs/readme_images/homepage_smallscreen.png)
 
 Contact form successful submission page.
 
-Contact form submission success
+![Contact form submission success](docs/readme_images/thankyoupage_large%20screen.png)
 
-Contact form submission success
-
-Adventures page
-
-Adventures page large screen
-
-Adventures page small screen
+![Contact form submission success small screen](docs/readme_images/thankyoumsg_smallscreen.png)
 
 Gallery page
 
-Gallery page large screen
+![Gallery page large screen](docs/readme_images/gallery_largescreen.png)
 
-Gallery page small screen
+![Gallery page small screen](docs/readme_images/gallerysmallscreen.png)
 
-404 page
+Sign Up Form
 
-Gallery page large screen
-
-Gallery page small screen
-
+![Sign UpForm Large Screen](docs/readme_images/signupform_largescreen.png)
+![Sign Up Form Small Screen](docs/readme_images/signup_smallscreen.png)
 
 
 
