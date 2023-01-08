@@ -46,34 +46,38 @@ This will help to immediately show and entice the user what the website is about
     * Parent/Guardian's Full Name (required, type=text)
     * Contact Number (required, type=tel)
     * Email (required, type=email)
+    
+![Sign Up Form](docs/readme_images/signup_form.png)
+
 * On successful submission of the Sign form, the user will be navigated to contact.html displaying a success message.
 This will allow user to contact the club if they have any queries about the club, information about all the activities or membership.
 
-![Sign Up Form](docs/readme_images/signup_form.png)
+![Thank you message](docs/readme_images/thankyou_msg.png)
 
 
 ### Gallery Page
 
 * Gallery
-The gallery will provide the user with photos of the club members in action.
+    * The gallery will provide the user with photos of the our club members in action.
 This will give the user a glimpse of how much fun and exciting it is to be a member of the club.
 
 ![Gallery](docs/readme_images/gallery.png)
 
 
+### Existing Features
+
+* Responsive design
+* Gallery
+* Sign up form and success page
+
+### Features Left to Implement
+
+* As a future enhancement, the Sign up form will be updated with javascript to send an email to the club with the contact information.
 
 
-Details Dropdown
+## Design
 
-Existing Features
-Responsive design
-Sign up form and success page
-Features Left to Implement
-As a future enhancement, the Sign up form will be updated with javascript to send an email to the club with the contact information.
-
-
-Design
-Wireframes
+### Wireframes
 
 Home page
 
