@@ -239,7 +239,6 @@ footer {
     align-items: center;
     background-color: rgba(60, 60, 60, 0.6);
     justify-content: center;
-    padding: auto;
    
 }
 #contacts {
@@ -354,7 +353,7 @@ margin-right: 10%;
 }
 
 .thankyou {
-    display: flexbox;
+    display: flex;
     margin: 40px 5% 0 0;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);

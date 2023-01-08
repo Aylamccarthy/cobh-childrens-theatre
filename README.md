@@ -155,18 +155,13 @@ Aria properties have been implemented correctly
 WCAG 2.1 Coding best practices being followed
 Manual tests were also performed to ensure the website was accessible as possible and an accessibility issue was identified.
 
-Issue #1: Use of hidden check boxes and labels for the gallery filter and accordion on the gallery page were not accessible via the keyboard due to the property display: none;
 
-Fix: I could not find a way to fix this issue with html and css alone so a tabindex of 0 was added to allow the label to be tabbed to and an onkeypress event to target and click the correct checkbox was implemented. Javascript code was taken from this Mozilla Doc
-
-Issue #2: After keyboard controls were implemented, while testing the site with windows 'Narrator' screenreader, it was not clearly known what the purpose of the labels/checkboxes were. An aria-label label was added to the labels for screen readers to alert them that the labels were clickable and what their purpose was.
 
 Lighthouse Testing
 Home
 
 Gallery
 
-Adventures
 
 Functional Testing
 Navigation Links
@@ -202,15 +197,15 @@ Actual:
 
 Website behaved as expected with no errors or warnings and redirected to contact.html.
 
-Scenario Two - Missing Required Field First Name
+Scenario Two - Missing Required Field Full Name
 
 Steps to test:
 
-Navigate to Tacos Travels - Home Page
+Navigate to Cobh children's Theatre - Home Page
 Scroll down to the form and input the following data:
-First Name:
-Last Name: 
-Email: doe.
+Child's Full Name:
+Parent/Guardian's Full Name: 
+Email: hello.
 Click Submit
 Expected:
 
@@ -220,14 +215,14 @@ Actual:
 
 Website behaved as expected, error message was displayed and the form did not submit.
 
-Scenario Three - Missing Required Field Last Name
+Scenario Three - Missing Required Field Child's Full Name
 
 Steps to test:
 
 Navigate to Cobh Children's Theatre - Home Page
 Scroll down to the form and input the following data:
-First Name:Mike
-Last Name:
+Child's Full Name:
+Parent/Guardian's Full Name:Mike
 Email: mmcarthy@gmail.com
 
 Click Submit
@@ -245,8 +240,8 @@ Steps to test:
 
 Navigate to  Cobh Children's Theatre- Home Page
 Scroll down to the form and input the following data:
-First Name:John
-Last Name: Mike
+Child's Full Name:John
+Parent/Guardian'sFull Name: Mike
 Email:
 Click Submit
 Expected:
@@ -263,8 +258,8 @@ Steps to test:
 
 Navigate to Cobh Children's Theatre - Home Page
 Scroll down to the form and input the following data:
-First Name:John
-Last Name: Mike
+Child's Full Name:John
+Parent/Guardian's Full Name: Mike
 Email: mmcarthy.gmail.com
 Click Submit
 Expected:
@@ -314,6 +309,8 @@ Behavior was as expected and my outlook application was opened ready to send an 
 Validator Testing
 HTML
 No errors were returned when passing through the official W3C validator
+
+![HTML Validator](docs/readme_images/html_validator.png)
 Contact HTML Validator Results
 
 Sign up HTML Validator Results
@@ -326,6 +323,9 @@ Gallery HTML Validator Results
 CSS
 No errors were found when passing through the official (Jigsaw) validator
 CSS Validator Results
+
+Lighthouse Testing
+![Lighthouse Test](docs/readme_images/lighthouse.test.png)
 
 Unfixed Bugs
 Responsiveness of the website worked on all devices, screen sizes and orientation with the exception of landscape orientation on mozilla firefox. I was unable to resolve this bug on time but will address in a future release.
@@ -362,16 +362,8 @@ Type git clone copied-git-url into the IDE terminal
 The project will now of been cloned on your local machine for use.
 
 Credits
-Accordion without javascript
-Code was used from this site to create the accordian effect on the adventures page sections for the hidden sections for each days travels. Styles were changed to suit styling on my Website.
-Youtube Gallery Filter Tutorial
-Gallery page was created with inspiration from this video. I adapted code to use flexbox rather than css grid to make the page responsive on every device.
+
+
+
 Content
-All content with
-Media
-Website Logo was 
 
-Maps on the ..
-
-
-[def]: docs/readme_images/readme_images.png
