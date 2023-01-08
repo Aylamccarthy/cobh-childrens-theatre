@@ -343,3 +343,11 @@ margin-right: 10%;
         column-count: 2;
     }
 }
+
+/* Thank you page for sign up form */
+.thankyou-section {
+    height: 300px;
+    width: 400px;
+    clear: both;
+
+}
