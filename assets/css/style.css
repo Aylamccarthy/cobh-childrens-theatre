@@ -346,8 +346,8 @@ margin-right: 10%;
 
 /* Thank you page for sign up form */
 .thankyou-section {
-    clear: left;
-    background: url(../images/pexels-андрей-12327983\ \(1\).jpg);
+    clear: center;
+    background: url(../images/pexels-pixabay-236149.jpg);
     background-size: cover;
     background-position: center;
     height: 700px;
