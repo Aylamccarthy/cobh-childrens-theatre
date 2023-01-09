@@ -64,20 +64,22 @@ h1, h2 {
 }
 
 #about-us {
+    display: inline;
     height: 400px;
     width: 100%;
     background-size: 100%;
     clear: both;
+    overflow: hidden;
 }
 
 #cover-text {
     font-size: 100%;
     font-family: 'Chivo Mono', sans-serif; 
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     padding: 30px 30px 30px 30px;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
-    text-align: justify;
+    text-align: left;
 
     bottom: 100px;
     right: 100px;
@@ -368,7 +370,7 @@ margin-right: 10%;
         padding-top: 10px;
        
 }
-
+}
 /* Thank you page for sign up form */
 .thankyou-section {
     clear: both;
@@ -393,5 +395,4 @@ margin-right: 10%;
     text-align: center;
     font-size: 250%;
     margin:  30px 50px ;
-
 }
