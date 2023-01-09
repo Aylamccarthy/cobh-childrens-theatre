@@ -105,32 +105,39 @@ Sign Up Form
 
 
 
-Technologies
-HTML
-The structure of the Website was developed using HTML as the main language.
-CSS
-The Website was styled using custom CSS in an external file.
-GitHub
-Source code is hosted on GitHub and delpoyed using Git Pages.
-Git
-Used to commit and push code during the development opf the Website
-Font Awesome
-Icons obtained from https://fontawesome.com/ were used as the Social media links in the footer section.
-Tinyjpg
-https://tinyjpg.com/ was used to reduce the size of the images used throughout the website
-balsamiq
-wireframes were created using balsamiq from https://balsamiq.com/wireframes/desktop/#
-Testing
-Responsiveness
+## Technologies
+
+
+* HTML
+    * The structure of the Website was developed using HTML as the main language.
+* CSS
+    * The Website was styled using custom CSS in an external file.
+* GitHub
+    * Source code is hosted on GitHub and delpoyed using Git Pages.
+* Git
+    * Used to commit and push code during the development of the Website
+* Font Awesome
+    * Icons obtained from https://fontawesome.com/ were used as the Social media links in the footer section.
+* Tinyjpg
+    * https://tinyjpg.com/ was used to reduce the size of the images used throughout the website
+* balsamiq
+    * Wireframes were created using balsamiq from https://balsamiq.com/wireframes/desktop/#
+
+
+## Testing
+### Responsiveness
+
 All pages were tested to ensure responsiveness on screen sizes from 320px and upwards as defined in WCAG 2.1 Reflow criteria for responsive design on Chrome, Edge, Firefox and Opera browsers.
 
 Steps to test:
 
-Open browser and navigate to Cobh Children's Theatre
-Open the developer tools (right click and inspect)
+1. Open browser and navigate to Cobh Children's Theatre
+2. Open the developer tools (right click and inspect)
 Set to responsive and decrease width to 320px
-Set the zoom to 50%
-Click and drag the responsive window to maximum width
+3. Set the zoom to 50%
+4. Click and drag the responsive window to maximum width.
+
+
 Expected:
 
 Website is responsive on all screen sizes and no images are pixelated or stretched. No horizontal scroll is present. No elements overlap.
@@ -140,8 +147,9 @@ Actual:
 Website behaved as expected with the exception of switching to landscape view in Mozilla Firefox. Details can be found in Unfixed Bugs
 
 
-Accessibility
-Wave Accessibility tool was used throughout development and for final testing of the deployed website to check for any aid accessibility testing.
+### Accessibility
+
+[Wave Accessibility](https://wave.webaim.org/) tool was used throughout development and for final testing of the deployed website to check for any aid accessibility testing.
 
 Testing was focused to ensure the following criteria were met:
 
@@ -157,7 +165,8 @@ Manual tests were also performed to ensure the website was accessible as possibl
 
 
 
-Lighthouse Testing
+### Lighthouse Testing
+
 Home
 
 Gallery
