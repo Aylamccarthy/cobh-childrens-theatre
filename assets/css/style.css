@@ -63,29 +63,35 @@ h1, h2 {
     color: #fff;
 }
 
+#about-us {
+    height: 400px;
+    width: 100%;
+    background-size: 100%;
+    clear: both;
+}
+
 #cover-text {
     font-size: 100%;
     font-family: 'Chivo Mono', sans-serif; 
     letter-spacing: 2px;
-
-    width: 410px;
-    height: 550px;
-
-    padding-top: 20px;
-    padding-left: 10px;
+    padding: 30px 30px 30px 30px;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
+    text-align: justify;
 
-    bottom: 10px;
+    bottom: 100px;
     right: 100px;
-
-    position: absolute;
 
 
 }
 
 
 /* club-ethos */
+
+#ethos-container{
+    clear: both;
+    display: inline;
+}
 
 #hi {
     text-align: center;
@@ -291,6 +297,10 @@ margin-right: 10%;
         clear: both;
     }
 
+    #ethos-container{
+        clear: both;
+        display: block;
+    }
     #welcome {
         text-align: center;
         font-size: 250%;
@@ -338,9 +348,25 @@ margin-right: 10%;
 
 /* For small screens sizes from 800px wide and down */
 @media screen and (max-width: 800px){
+    
     #photo-gallery{
         column-count: 2;
     }
+    #ethos-container{
+        clear: both;
+        display: block;
+    }
+    footer {
+        height: 200px;
+        width: 100%;
+        display: block;
+        flex-direction: row; 
+        align-items: center;
+        clear: both;
+        background-color: rgba(60, 60, 60, 0.6);
+        justify-content: center;
+        padding-top: 10px;
+       
 }
 
 /* Thank you page for sign up form */
@@ -353,7 +379,7 @@ margin-right: 10%;
 }
 
 .thankyou {
-    display: flex;
+    display: flexbox;
     margin: 40px 5% 0 0;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
