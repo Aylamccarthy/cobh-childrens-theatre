@@ -150,6 +150,7 @@ Website behaved as expected with the exception of switching to landscape view in
 ### Accessibility
 
 [Wave Accessibility](https://wave.webaim.org/) tool was used throughout development and for final testing of the deployed website to check for any aid accessibility testing.
+![Wave Testing Result](docs/readme_images/wave_test.png)
 
 Testing was focused to ensure the following criteria were met:
 
