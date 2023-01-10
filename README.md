@@ -315,25 +315,21 @@ Actual:
 
 Behavior was as expected and my outlook application was opened ready to send an email to the target address.
 
-Validator Testing
-HTML
+## Validator Testing
+
+# HTML
+
 No errors were returned when passing through the official W3C validator
 
 ![HTML Validator](docs/readme_images/html_validator.png)
-Contact HTML Validator Results
-
-Sign up HTML Validator Results
-
-Home HTML Validator Results
-
-Gallery HTML Validator Results
 
 
-CSS
+# CSS
+![CSS Validator](docs/readme_images/css_validation.png)
 No errors were found when passing through the official (Jigsaw) validator
 CSS Validator Results
 
-Lighthouse Testing
+# Lighthouse Testing
 ![Lighthouse Test](docs/readme_images/lighthouse.test.png)
 
 Unfixed Bugs
