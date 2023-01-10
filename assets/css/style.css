@@ -382,6 +382,8 @@ margin-right: 10%;
 
 .thankyou {
     display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     margin: 40px 5% 0 0;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
@@ -393,6 +395,7 @@ margin-right: 10%;
 .thankyou h2 {
     color: white;
     text-align: center;
-    font-size: 250%;
+    font-size: 200%;
     margin:  30px 50px ;
 }
+
