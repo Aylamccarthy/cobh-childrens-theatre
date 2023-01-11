@@ -8,14 +8,50 @@ Cobh Children's Theatre is a  children's club website. Its primary goal is to pr
 ## TABLE OF CONTENTS
 
 * [Features](#Features)
-* [Validator Testing](#Validator-Testing)
+    *[Site Wide](#Site-wide)
+    *[Landing Page](#Landing-page)
+    *[Gallery](#Gallery)
+    *[Existing Features](#Existing-features)
+    *[Features Left to Implement](#features-left-to-implement)
+
+* [Design](#design)
+    *[Wireframes](#wireframes)
+
+* [Technologies](#technologies)
+    *[HTML](#html)
+    *[CSS](#css)
+    *[Github](#github)
+    *[Git](#git)
+    *[Tinyjpg](#tinypng)
+    *[balsamiq](#balsamiq)
+
+*[Testing]
+    *[Responsiveness]
+    *[Accessibility](#accessibility)
+        *[Wave](#wave-accessibility)
+        *[Lighthouse](#lighthouse-testing)
+    *[Functional Testing](#functional-testing)
+    *[Validator Testing](#validator-testing)
+        *[HTML](#html)
+        *[CSS](#css)
+
+*[Deployment]
+    *[Version Control](#version-control)
+    *[Deployment to Github Pages](#deployment-to-github-pages)
+    *[Clone the Repository Code Locally](#clone-the-repository-code-locally)
+
+*[Credits](#credits)
+
+*[content](#content)
+
+    
 
 
 
 ## Features
 
 
-### Site wide
+### Site Wide
 * Navigation Menu
 * Contains links to the Home, Gallery and sign Up pages and will be responsive on all devices.
 This will allow users to easily navigate between the pages within the site on any device size.
@@ -170,7 +206,7 @@ HTML page lang attribute has been set.
 - Aria properties have been implemented correctly.
 - WCAG 2.1 Coding best practices being followed.
 
-# Lighthouse Testing
+## Lighthouse Testing
 
 ![Lighthouse Test](docs/readme_images/lighthouse.test.png)
 
@@ -336,7 +372,7 @@ Behavior was as expected and my outlook application was opened ready to send an 
 
 # Validator Testing
 
-##HTML
+## HTML
 
 - No errors were returned when passing through the official W3C validator
 
