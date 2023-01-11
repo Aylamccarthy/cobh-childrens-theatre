@@ -5,6 +5,12 @@ Cobh Children's Theatre is a  children's club website. Its primary goal is to pr
 
 ![Mockup](docs/readme_images/mockup.png)
 
+## TABLE OF CONTENTS
+
+* [Features](#Features)
+* [Validator Testing](#Validator-Testing)
+
+
 
 ## Features
 
@@ -328,16 +334,16 @@ Actual:
 
 Behavior was as expected and my outlook application was opened ready to send an email to the target address.
 
-## Validator Testing
+# Validator Testing
 
-# HTML
+##HTML
 
 - No errors were returned when passing through the official W3C validator
 
 ![HTML Validator](docs/readme_images/html_validator.png)
 
 
-# CSS
+## CSS
 
 - No errors were found when passing through the official (Jigsaw) validator
 CSS Validator Results
@@ -349,9 +355,9 @@ CSS Validator Results
 Unfixed Bugs
 Responsiveness of the website worked on all devices, screen sizes and orientation with the exception of landscape orientation on mozilla firefox. I was unable to resolve this bug on time but will address in a future release.
 
-## Deployment
+# Deployment
 
-### Version Control
+## Version Control
 
 The site was created using the Visual Studio code editor and pushed to github to the remote repository ‘Cobh-Childrens-Theatre’.
 
@@ -364,7 +370,7 @@ The following git commands were used throughout development to push code to the 
 ```git push``` - This command was used to push all committed code to the remote repository on github.
 
 
-### Deployment to Github Pages
+## Deployment to Github Pages
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
     - In the GitHub repository, navigate to the Settings tab
@@ -390,6 +396,7 @@ Navigate to the GitHub Repository you want to clone to use locally:
 * Code Institute "Love Running" project.
 * Gareth McGirr  "Tacos Travel" project.
 * Kevin Powell Youtube Tutorial- HTML and CSS for Beginners. Responsive Design Made Easy.
+* Code Institute-Slack Channel
 
 
 ## Content
