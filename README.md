@@ -191,7 +191,7 @@ _Scenario One - Correct Inputs_
 
 Steps to test:
 
-1. Navigate to Cobh Childrens Theatre - Sign Up Page.
+1. Navigate to [Cobh children's Theatre](https://aylamccarthy.github.io/cobh-childrens-theatre/) Sign Up Page.
 
 2. Scroll down to the form and input the following data:
     - Child's Full Name: John McCarthy
@@ -213,7 +213,7 @@ _Scenario Two - Missing Required Field  Child's Full Name_
 
 Steps to test:
 
-1. Navigate to Cobh children's Theatre - Sign Up Page
+1. Navigate to [Cobh children's Theatre](https://aylamccarthy.github.io/cobh-childrens-theatre/) Sign Up Page.
 2. Scroll down to the form and input the following data:
     - Child's Full Name: 
     - Parent/Guardian's Full Name: Mike McCarthy
@@ -233,7 +233,7 @@ _Scenario Three - Missing Required Field Parent/Guardian's Full Name_
 
 Steps to test:
 
-1. Navigate to Cobh Children's Theatre - Sign Up Page
+1. Navigate to [Cobh children's Theatre](https://aylamccarthy.github.io/cobh-childrens-theatre/) Sign Up Page.
 2. Scroll down to the form and input the following data:
     - Child's Full Name: John McCarthy
     - Parent/Guardian's Full Name: 
@@ -254,7 +254,7 @@ _Scenario Four - Missing Required Field Email_
 
 Steps to test:
 
-1. Navigate to  Cobh Children's Theatre- Sign Up Page
+1. Navigate to [Cobh children's Theatre](https://aylamccarthy.github.io/cobh-childrens-theatre/) Sign Up Page.
 2. Scroll down to the form and input the following data:
     - Child's Full Name: John McCarthy
     - Parent/Guardian's Full Name: 
@@ -270,11 +270,11 @@ Actual:
 
 Website behaved as expected, error message was displayed and the form did not submit.
 
-_Scenario Six - Incorrect email format_
+_Scenario Five - Incorrect email format_
 
 Steps to test:
 
-1. Navigate to Cobh Children's Theatre - Sign Up Page
+1. Navigate to [Cobh children's Theatre](https://aylamccarthy.github.io/cobh-childrens-theatre/) Sign up page.
 2. Scroll down to the form and input the following data:
  Child's Full Name: John McCarthy
     - Parent/Guardian's Full Name: 
@@ -302,7 +302,7 @@ Testing was performed on the phone number in the contact information section of 
 
 _Steps to test Telephone Number_
 
-1. Navigate to Cobh Children's Theatre - Home Page
+1. Navigate to [Cobh children's Theatre](https://aylamccarthy.github.io/cobh-childrens-theatre/) Home page.
 2. Click the phone number in the footer (01 123 456 789)
 
 Expected:
@@ -317,7 +317,7 @@ Mobile Phone 0871376895
 
 _Steps to test Email Link_
 
-1. Navigate to ![Cobh Children's Theatre](https://aylamccarthy.github.io/cobh-childrens-theatre/)  
+1. Navigate to [Cobh children's Theatre](https://aylamccarthy.github.io/cobh-childrens-theatre/) Home page.
 2. Click the email address in the footer (info.cobhtheatre@gmail.com)
 
 Expected:
@@ -374,19 +374,26 @@ The following git commands were used throughout development to push code to the 
     - A live link will be displayed in a green banner when published successfully.
 The live link can be found here -  https://aylamccarthy.github.io/cobh-childrens-theatre/
 
-Clone the Repository Code Locally
+### Clone the Repository Code Locally
+
 Navigate to the GitHub Repository you want to clone to use locally:
 
-Click on the code drop down button
-Click on HTTPS
-Copy the repository link to the clipboard
-Open your IDE of choice (git must be installed for the next steps)
-Type git clone copied-git-url into the IDE terminal
-The project will now of been cloned on your local machine for use.
+- Click on the code drop down button
+- Click on HTTPS
+- Copy the repository link to the clipboard
+- Open your IDE of choice (git must be installed for the next steps)
+- Type git clone copied-git-url into the IDE terminal
 
-Credits
+- The project will now have been cloned on your local machine for use.
+
+## Credits
+* Code Institute "Love Running" project.
+* Gareth McGirr  "Tacos Travel" project.
+* Kevin Powell Youtube Tutorial- HTML and CSS for Beginners. Responsive Design Made Easy.
 
 
-
-Content
+## Content
+All the images are from https://pexels.com and https://pixabay.com/.
+Wikipedia and google were used for word definitions.
+All contents are owned by Cobh Children's Theatre. 
 
