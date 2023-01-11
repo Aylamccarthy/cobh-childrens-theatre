@@ -149,74 +149,78 @@ Website behaved as expected with the exception of switching to landscape view in
 
 ### Accessibility
 
+# Wave Accessibility
 [Wave Accessibility](https://wave.webaim.org/) tool was used throughout development and for final testing of the deployed website to check for any aid accessibility testing.
 ![Wave Testing Result](docs/readme_images/wave_test.png)
 
 Testing was focused to ensure the following criteria were met:
 
-All forms have associated labels or aria-labels so that this is read out on a screen reader to users who tab to form inputs
-Color contrasts meet a minimum ratio as specified in WCAG 2.1 Contrast Guidelines
-Heading levels are not missed or skipped to ensure the importance of content is relayed correctly to the end user
-All content is contained within landmarks to ensure ease of use for assistive technology, allowing the user to navigate by page regions
-All not textual content had alternative text or titles so descriptions are read out to screen readers
-HTML page lang attribute has been set
-Aria properties have been implemented correctly
-WCAG 2.1 Coding best practices being followed
-Manual tests were also performed to ensure the website was accessible as possible and an accessibility issue was identified.
+- All forms have associated labels or aria-labels so that this is read out on a screen reader to users who tab to form inputs.
+- Color contrasts meet a minimum ratio as specified in WCAG 2.1 Contrast Guidelines.
+- Heading levels are not missed or skipped to ensure the importance of content is relayed correctly to the end user.
+- All content is contained within landmarks to ensure ease of use for assistive technology, allowing the user to navigate by page regions.
+- All not textual content had alternative text or titles so descriptions are read out to screen readers
+HTML page lang attribute has been set.
+- Aria properties have been implemented correctly.
+- WCAG 2.1 Coding best practices being followed.
+
+# Lighthouse Testing
+
+![Lighthouse Test](docs/readme_images/lighthouse.test.png)
 
 
+### Functional Testing
 
-### Lighthouse Testing
-
-Home
-
-Gallery
-
-
-Functional Testing
-Navigation Links
+**Navigation Links**
 
 Testing was performed to ensure all navigation links on the respective pages, navigated to the correct pages as per design. This was done by clicking on the navigation links on each page.
 
-Navigation Link	Page to Load
-Home	index.html
-Sign Up	sign-up.html
-Gallery	gallery.html
+| Navigation Link | Page to Load  |
+|-----------------|---------------|
+| Home            |  index.html   |
+| Gallery         |  gallery.html |
+| Sign Up         |  sign-up.html |
+
 Links on all pages navigated to the correct pages as expected.
 
-Form Testing
+**Form Testing**
 
 The form on the sign up page was tested to ensure it functioned as expected when correct data was input and when incorrect data was input. The following test scenarios were covered:
 
-Scenario One - Correct Inputs
+_Scenario One - Correct Inputs_
 
 Steps to test:
 
-Navigate to Cobh Childrens Theatre - Sign Up Page
-Scroll down to the form and input the following data:
-Child's Name: John
-Parent/Guardian's Full Name: Mike McCarthy
-Email: mmcarthy@gmail.com
-Click Submit
-User should be redirected to contact.html confirmation page
+1. Navigate to Cobh Childrens Theatre - Sign Up Page.
+
+2. Scroll down to the form and input the following data:
+    - Child's Full Name: John McCarthy
+    - Parent/Guardian's Full Name: Mike McCarthy
+    - Parent/Guardian's Contact Number: 123456789
+    - Email: mmcarthy@gmail.com
+3. Click Submit
+4. User should be redirected to contact.html confirmation page
+
 Expected:
 
 Form submits with no warnings or errors and user is redirected to contact.html confirmation page.
 
 Actual:
 
-Website behaved as expected with no errors or warnings and redirected to contact.html.
+Website behaved as expected with no errors or warnings and redirected to thankyou.html.
 
-Scenario Two - Missing Required Field Full Name
+_Scenario Two - Missing Required Field  Child's Full Name_
 
 Steps to test:
 
-Navigate to Cobh children's Theatre - Home Page
-Scroll down to the form and input the following data:
-Child's Full Name:
-Parent/Guardian's Full Name: 
-Email: hello.
-Click Submit
+1. Navigate to Cobh children's Theatre - Sign Up Page
+2. Scroll down to the form and input the following data:
+    - Child's Full Name: 
+    - Parent/Guardian's Full Name: Mike McCarthy
+    - Parent/Guardian's Contact Number: 123456789
+    - Email: mmcarthy@gmail.com
+3. Click Submit
+
 Expected:
 
 The form does not submit and an Error is displayed to tell the user that the field is required.
@@ -225,17 +229,19 @@ Actual:
 
 Website behaved as expected, error message was displayed and the form did not submit.
 
-Scenario Three - Missing Required Field Child's Full Name
+_Scenario Three - Missing Required Field Parent/Guardian's Full Name_
 
 Steps to test:
 
-Navigate to Cobh Children's Theatre - Home Page
-Scroll down to the form and input the following data:
-Child's Full Name:
-Parent/Guardian's Full Name:Mike
-Email: mmcarthy@gmail.com
+1. Navigate to Cobh Children's Theatre - Sign Up Page
+2. Scroll down to the form and input the following data:
+    - Child's Full Name: John McCarthy
+    - Parent/Guardian's Full Name: 
+    - Parent/Guardian's Contact Number: 123456789
+    - Email: mmcarthy@gmail.com
 
-Click Submit
+3. Click Submit
+
 Expected:
 
 The form does not submit and an Error is displayed to tell the user that the field is required.
@@ -244,16 +250,18 @@ Actual:
 
 Website behaved as expected, error message was displayed and the form did not submit.
 
-Scenario Four - Missing Required Field Email
+_Scenario Four - Missing Required Field Email_
 
 Steps to test:
 
-Navigate to  Cobh Children's Theatre- Home Page
-Scroll down to the form and input the following data:
-Child's Full Name:John
-Parent/Guardian'sFull Name: Mike
-Email:
-Click Submit
+1. Navigate to  Cobh Children's Theatre- Sign Up Page
+2. Scroll down to the form and input the following data:
+    - Child's Full Name: John McCarthy
+    - Parent/Guardian's Full Name: 
+    - Parent/Guardian's Contact Number: 123456789
+    - Email: 
+3. Click Submit
+
 Expected:
 
 The form does not submit and an Error is displayed to tell the user that the field is required.
@@ -262,16 +270,18 @@ Actual:
 
 Website behaved as expected, error message was displayed and the form did not submit.
 
-Scenario Six - Incorrect email format
+_Scenario Six - Incorrect email format_
 
 Steps to test:
 
-Navigate to Cobh Children's Theatre - Home Page
-Scroll down to the form and input the following data:
-Child's Full Name:John
-Parent/Guardian's Full Name: Mike
-Email: mmcarthy.gmail.com
-Click Submit
+1. Navigate to Cobh Children's Theatre - Sign Up Page
+2. Scroll down to the form and input the following data:
+ Child's Full Name: John McCarthy
+    - Parent/Guardian's Full Name: 
+    - Parent/Guardian's Contact Number: 123456789
+    - Email: mmcarthy.gmail.com
+3. Click Submit
+
 Expected:
 
 The form does not submit and an Error is displayed to tell the user that a valid email is required and the format it should be in.
@@ -280,20 +290,21 @@ Actual:
 
 Website behaved as expected, error message was displayed and the form did not submit.
 
-Footer Social Media Icons / Links
+**Footer Social Media Icons / Links** 
 
-Testing was performed on the Font Awesome Social Media icons in the footer to ensure that each one opened in a new tab and that each one had a hover affect of the orange branding color.
+Testing was performed on the Font Awesome Social Media icons in the footer to ensure that each one opened in a new tab.
 
-Each item opened a new tab when clicked as expected and correct hover color was present.
+Each item opened a new tab when clicked as expected.
 
-Footer Contact Information
+**Footer Contact Information**
 
 Testing was performed on the phone number in the contact information section of the footer to ensure behaviour was as expected.
 
-Steps to test Telephone Number
+_Steps to test Telephone Number_
 
-Navigate to Cobh Children's Theatre - Home Page
-Click the phone number in the footer (01 123 456 789)
+1. Navigate to Cobh Children's Theatre - Home Page
+2. Click the phone number in the footer (01 123 456 789)
+
 Expected:
 
 A window is opened asking which device you would like to call from.
@@ -304,13 +315,14 @@ Behavior was as expected and the window presented me with the following option t
 
 Mobile Phone 0871376895
 
-Steps to test Email Link
+_Steps to test Email Link_
 
-Navigate to Cobh Children's Theatre- Home Page
-Click the email address in the footer (info.cobhtheatre@gmail.com)
+1. Navigate to ![Cobh Children's Theatre](https://aylamccarthy.github.io/cobh-childrens-theatre/)  
+2. Click the email address in the footer (info.cobhtheatre@gmail.com)
+
 Expected:
 
-A windows popup is displayed asking what application you would like to send a mail from or your default email application is opened.
+A windows pop up is displayed asking what application you would like to send a mail from or your default email application is opened.
 
 Actual:
 
@@ -320,42 +332,47 @@ Behavior was as expected and my outlook application was opened ready to send an 
 
 # HTML
 
-No errors were returned when passing through the official W3C validator
+- No errors were returned when passing through the official W3C validator
 
 ![HTML Validator](docs/readme_images/html_validator.png)
 
 
 # CSS
-![CSS Validator](docs/readme_images/css_validation.png)
-No errors were found when passing through the official (Jigsaw) validator
+
+- No errors were found when passing through the official (Jigsaw) validator
 CSS Validator Results
 
-# Lighthouse Testing
-![Lighthouse Test](docs/readme_images/lighthouse.test.png)
+![CSS Validator](docs/readme_images/css_validation.png)
+
+
 
 Unfixed Bugs
 Responsiveness of the website worked on all devices, screen sizes and orientation with the exception of landscape orientation on mozilla firefox. I was unable to resolve this bug on time but will address in a future release.
 
-Deployment
-Version Control
+## Deployment
+
+### Version Control
+
 The site was created using the Visual Studio code editor and pushed to github to the remote repository ‘Cobh-Childrens-Theatre’.
 
 The following git commands were used throughout development to push code to the remote repo:
 
-git add <file> - This command was used to add the file(s) to the staging area before they are committed.
+```git add <file>``` - This command was used to add the file(s) to the staging area before they are committed.
 
-git commit -m “commit message” - This command was used to commit changes to the local repository queue ready for the final step.
+```git commit -m “commit message” ``` - This command was used to commit changes to the local repository queue ready for the final step.
 
-git push - This command was used to push all committed code to the remote repository on github.
+```git push``` - This command was used to push all committed code to the remote repository on github.
 
-Deployment to Github Pages
-The site was deployed to GitHub pages. The steps to deploy are as follows:
-In the GitHub repository, navigate to the Settings tab
-From the menu on left select 'Pages'
-From the source section drop-down menu, select the Branch: main
-Click 'Save'
-A live link will be displayed in a green banner when published successfully.
-The live link can be found here - /
+
+### Deployment to Github Pages
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+    - In the GitHub repository, navigate to the Settings tab
+    - From the menu on left select 'Pages'
+    - From the source section drop-down menu, select the Branch: main
+    - Click 'Save'
+    - A live link will be displayed in a green banner when published successfully.
+The live link can be found here -  https://aylamccarthy.github.io/cobh-childrens-theatre/
 
 Clone the Repository Code Locally
 Navigate to the GitHub Repository you want to clone to use locally:
