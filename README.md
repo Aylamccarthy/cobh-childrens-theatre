@@ -8,41 +8,42 @@ Cobh Children's Theatre is a  children's club website. Its primary goal is to pr
 ## TABLE OF CONTENTS
 
 * [Features](#Features)
-    *[Site Wide](#Site-wide)
-    *[Landing Page](#Landing-page)
-    *[Gallery](#Gallery)
-    *[Existing Features](#Existing-features)
-    *[Features Left to Implement](#features-left-to-implement)
+    * [Site Wide](#site-wide)
+    * [Landing Page](#landing-page)
+    * [Gallery](#gallery-page)
+    * [Existing Features](#existing-features)
+    * [Features Left to Implement](#features-left-to-implement)
+
 
 * [Design](#design)
-    *[Wireframes](#wireframes)
+    * [Wireframes](#wireframes)
 
 * [Technologies](#technologies)
-    *[HTML](#html)
-    *[CSS](#css)
-    *[Github](#github)
-    *[Git](#git)
-    *[Tinyjpg](#tinypng)
-    *[balsamiq](#balsamiq)
+    * [HTML](#html)
+    * [CSS](#css)
+    * [Github](#github)
+    * [Git](#git)
+    * [Tinyjpg](#tinypng)
+    * [balsamiq](#balsamiq)
 
-*[Testing]
-    *[Responsiveness]
-    *[Accessibility](#accessibility)
-        *[Wave](#wave-accessibility)
-        *[Lighthouse](#lighthouse-testing)
-    *[Functional Testing](#functional-testing)
-    *[Validator Testing](#validator-testing)
-        *[HTML](#html)
-        *[CSS](#css)
+* [Testing](#testing)
+    * [Responsiveness](#responsiveness)
+    * [Accessibility](#accessibility)
+        * [Wave](#wave-accessibility)
+        * [Lighthouse](#lighthouse-testing)
+    * [Functional Testing](#functional-testing)
+    * [Validator Testing](#validator-testing)
+        * [HTML](#html)
+        * [CSS](#css)
 
-*[Deployment]
-    *[Version Control](#version-control)
-    *[Deployment to Github Pages](#deployment-to-github-pages)
-    *[Clone the Repository Code Locally](#clone-the-repository-code-locally)
+* [Deployment](#deployment)
+    * [Version Control](#version-control)
+    * [Deployment to Github Pages](#deployment-to-github-pages)
+    * [Clone the Repository Code Locally](#clone-the-repository-code-locally)
 
-*[Credits](#credits)
+* [Credits](#credits)
 
-*[content](#content)
+* [Content](#content)
 
     
 
