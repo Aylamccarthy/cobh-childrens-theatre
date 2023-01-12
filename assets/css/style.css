@@ -31,9 +31,9 @@ h1, h2 {
 }
 
 #menu li {
-    float: right;
-    list-style: none;
-    margin-right: 30px;
+    padding-right: 1rem;
+    display: flex;
+    justify-content: flex-start;
 }
 #menu a {
     text-decoration: none;
