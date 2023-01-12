@@ -114,6 +114,7 @@ h1, h2 {
     text-align: center;
     font-size: 250%;
     margin:  50px 30px ;
+    clear: both;
 }
 
 .right-reasons {
@@ -358,10 +359,12 @@ margin-right: 10%;
     #photo-gallery{
         column-count: 2;
     }
+
     #ethos-container{
         clear: both;
         display: block;
     }
+
     footer {
         height: 200px;
         width: 100%;
@@ -390,7 +393,7 @@ margin-right: 10%;
     justify-content: flex-start;
     margin: 40px 5% 0 0;
     color: #fff;
-    width: 600px;
+    width: 500px;
     right: 1%;
     padding: 50px;
     text-align: center;
