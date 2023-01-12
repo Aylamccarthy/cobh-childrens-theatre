@@ -18,7 +18,7 @@ h1, h2 {
     color: #352165;
 }
 #logo {
-    float: left;
+   float: left;
     font-size: 250%;
     margin-left: 20px;
 }
@@ -40,7 +40,8 @@ h1, h2 {
     color: inherit;
 }
 #menu, #logo { 
-    line-height: 75px;
+    padding: 1em 0 1em 0;
+    line-height: 45px;
 
 }
 #menu a:hover {
@@ -95,7 +96,7 @@ h1, h2 {
 
 #ethos-container{
     clear: both;
-    display: inline;
+    display: flex;
 }
 
 #hi {
