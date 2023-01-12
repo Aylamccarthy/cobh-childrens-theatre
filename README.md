@@ -11,6 +11,7 @@ Cobh Children's Theatre is a  children's club website. Its primary goal is to pr
     * [Site Wide](#site-wide)
     * [Landing Page](#landing-page)
     * [Gallery](#gallery-page)
+    * [Sign Up PAge](#sign-up-page)
     * [Existing Features](#existing-features)
     * [Features Left to Implement](#features-left-to-implement)
 
@@ -83,7 +84,7 @@ This will help to immediately show and entice the user what the website is about
  * This information lets the user know what the site is about.
 
 
-* Sign Up form
+### Sign Up Page
  * A sign up form will be implemented to allow users to sign up to the club. The form will consist of the following fields and attributes:
     * Child's Name (required, type=text)
     * Parent/Guardian's Full Name (required, type=text)
@@ -187,7 +188,7 @@ Website is responsive on all screen sizes and no images are pixelated or stretch
 
 Actual:
 
-Website behaved as expected with the exception of switching to landscape view in Mozilla Firefox. Details can be found in Unfixed Bugs
+Website behaved as expected with the exception of switching to the viewport size to 320px. Details can be found in Unfixed Bugs.
 
 
 ### Accessibility
@@ -389,8 +390,9 @@ CSS Validator Results
 
 
 
-Unfixed Bugs
-Responsiveness of the website worked on all devices, screen sizes and orientation with the exception of landscape orientation on mozilla firefox. I was unable to resolve this bug on time but will address in a future release.
+## Unfixed Bugs
+
+Responsiveness of the website worked on all devices, screen sizes and orientation with the exception of 320px viewport size. I was unable to resolve this bug on time but will address in a future release.
 
 # Deployment
 
