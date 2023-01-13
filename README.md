@@ -398,9 +398,9 @@ I encountered so many bugs through out the whole process of building this websit
 
  Responsiveness: 
 
-    - Expected: The website would work on all devices, screen sizes and orientation.
-    - Actual: Responsiveness of the website did not work as expected on mobile devices.
-    - Solution: With more research and mentor consultation, and changing my codes as necessary, I was able to fix these bugs on time, with the exception of thank you page which is still not working as expected on mobile devices. But will do my very best to have this fixed on future release.
+- Expected: The website would work on all devices, screen sizes and orientation.
+- Actual: Responsiveness of the website did not work as expected on mobile devices.
+- Solution: With more research and mentor consultation, and changing my codes as necessary, I was able to fix these bugs on time, with the exception of thank you page which is still not working as expected on mobile devices. But will do my very best to have this fixed on future release.
 
 ### Before:
 
