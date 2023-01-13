@@ -37,6 +37,8 @@ Cobh Children's Theatre is a  children's club website. Its primary goal is to pr
         * [HTML](#html)
         * [CSS](#css)
 
+* [Bugs/Unfixed Bugs](#bugsunfixed-bugs)
+
 * [Deployment](#deployment)
     * [Version Control](#version-control)
     * [Deployment to Github Pages](#deployment-to-github-pages)
