@@ -31,7 +31,7 @@ h1, h2 {
 }
 
 #menu li {
-    padding-right: 1rem;
+    padding-right: 3rem;
     display: flex;
     justify-content: flex-start;
 }

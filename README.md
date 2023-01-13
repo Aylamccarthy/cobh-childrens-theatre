@@ -390,9 +390,16 @@ CSS Validator Results
 
 
 
-## Unfixed Bugs
+## Bugs/Unfixed Bugs
 
-Responsiveness of the website worked on all devices, screen sizes and orientation with the exception of 320px viewport size. I was unable to resolve this bug on time but will address in a future release.
+I encountered so many bugs through out the whole process of building this website. Most of them I resolved on time. But the ones listed below were the ones I found most challenging;
+
+    - Responsiveness: 
+        - Expected: The website would work on all devices, screen sizes and orientation.
+        - Actual: Responsiveness of the website did not work as expected on mobile devices.
+        - Solution: With more research and mentor consultation, and changing my codes as necessary, I was able to fix these bugs on time. 
+
+
 
 # Deployment
 
