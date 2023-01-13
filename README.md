@@ -399,6 +399,13 @@ I encountered so many bugs through out the whole process of building this websit
         - Actual: Responsiveness of the website did not work as expected on mobile devices.
         - Solution: With more research and mentor consultation, and changing my codes as necessary, I was able to fix these bugs on time. 
 
+### Before:
+
+![Before](docs/readme_images/responsiveness_before.png)
+
+### After:
+
+![After](docs/readme_images/responsiveness_after.png)
 
 
 # Deployment
