@@ -396,10 +396,10 @@ CSS Validator Results
 
 I encountered so many bugs through out the whole process of building this website. Most of them I resolved on time. But the ones listed below were the ones I found most challenging;
 
-    - Responsiveness: 
-        - Expected: The website would work on all devices, screen sizes and orientation.
-        - Actual: Responsiveness of the website did not work as expected on mobile devices.
-        - Solution: With more research and mentor consultation, and changing my codes as necessary, I was able to fix these bugs on time, with the exception of thank you page which is still not working as expected on mobile devices. But will do my very best to have this fixed on future release.
+ Responsiveness: 
+    - Expected: The website would work on all devices, screen sizes and orientation.
+    - Actual: Responsiveness of the website did not work as expected on mobile devices.
+    - Solution: With more research and mentor consultation, and changing my codes as necessary, I was able to fix these bugs on time, with the exception of thank you page which is still not working as expected on mobile devices. But will do my very best to have this fixed on future release.
 
 ### Before:
 
